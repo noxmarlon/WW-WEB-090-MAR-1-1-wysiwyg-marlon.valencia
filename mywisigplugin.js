@@ -72,13 +72,6 @@
             document.execCommand('foreColor',true ,y); 
         });
         
-        $( "input[value=indent]" ).on( "click", function() { 
-            document.execCommand('indent',true ,null); 
-        });
-        
-        $( "input[value=outdent]" ).on( "click", function() { 
-            document.execCommand('outdent',true ,null); 
-        });
         
         $( "select" ).change(function() { 
             var str = "";
