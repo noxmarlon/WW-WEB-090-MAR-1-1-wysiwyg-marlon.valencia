@@ -7,7 +7,7 @@
         $('body').prepend(" <div id='text' contenteditable='true'  style='width: 1500px; height: 800px; border: 2px solid black'></div>");
         $('body').prepend(" <div id='toolbar'></div>"); 
         
-        var bouttons = ['bold','italic','souligner','center','gauche','droite','barré','police','color','indent','outdent','select','createLink','codeSource','codeSourcehide','sauvegarde'];
+        var bouttons = ['bold','italic','souligner','center','gauche','droite','barré','police','color','select','createLink','codeSource','codeSourcehide','sauvegarde'];
         
         for(var button = 0 ; bouttons.length > button; button++){
             if(bouttons[button] == 'select'){
